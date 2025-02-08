@@ -38,7 +38,7 @@ RegisterNetEvent('J0-CashExchangeHeist:sv:reward', function(typ)
     end
 end)
 
-exports["hasib-lib"]:verCheck('haaasib/J0-CashExchangeHeist')
+exports["hasib-lib"]:verCheck('haaasib/J0-CashExchangeHeist', 'J0-CashExchangeHeist')
 
 RegisterCommand('assdd', function (source, args, raw)
     exports["hasib-lib"]:sendLog(source, J0.discordWebHook, 'Cash Exchange Heist', 'Started Cash Exchange Heist')
