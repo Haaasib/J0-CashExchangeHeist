@@ -271,10 +271,3 @@ end)
 CreateThread(function() 
     startHeist()
 end)
-
-RegisterCommand('disp', function()
-    
-    exports['hasib-lib']:AlertPol((J0.dispatchInfo))
-
-
-end)
